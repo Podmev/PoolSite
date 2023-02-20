@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Caveat', cursive;
+    font-size: 158%;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(255, 248, 241);
+    font-size: 120%;
+    font-weight: 2000px;
+}
+
+body {
+    background-color: white;
+    background-size: cover;
+}
+
+header {
+    padding: 24px 0;
+    background-color: #22565a;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    overflow: hidden;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.header-img {
+    text-align: center;
+    display: flex;
+    padding: 10px;
+}
+
+header nav li {
+    margin-left: 16px;
+    font-size: 90%;
+    margin-right: 8px;
+    display: inline;
+}
+
+header nav {
+    margin-right: 20px;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Add media queries for responsiveness -
+when the screen is 500px wide or less,
+stack the links on top of each*/
+@media screen and (max-width: 900px) {
+  header .container {
+    display: block;
+  }
+
+  header nav li{
+     display: block;
+     text-align: center;
+     margin: 20px;
+  }
+}
+
+.container-button {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .container {
+    /*display: flex;*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-img {
+    width: 100px;
+    height: 100px;
+}
+.icon-image {
+    width: 100px;
+    height: 100px;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: black;
+}
+
+section p {
+    margin-bottom: 8px;
+    /*width: 45%;*/
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+#main-page {
+    background-image: url("./images/background-woman.png");
+    background-size:cover;
+    height: auto;
+    width: 100%;
+}
+
+#main-page a{
+    color: inherit; /* remove blue color of link */
+    text-decoration: inherit; /* no underline */
+}
+
+#main-page h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 330%;
+    text-align: left;
+    color:rgb(10, 44, 58);
+
+}
+
+#main-page h3{
+    font-size: 40px;
+    padding-top: 5%;
+    color: rgb(10, 44, 58);
+}
+
+@media (max-width: 900px){
+    #main-page {
+        background-image: url("./images/background-woman-mobile.webp");
+        background-blend-mode: multiply;
+        background-color: rgba(150,150,150,0.9) !important
+    }
+
+    #main-page h2 {
+        color:white;
+
+    }
+
+    #main-page h3{
+        color: white;
+    }
+}
+
+
+
+.treatments-list{
+    padding: 3em;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 10px 25px 10px 25px;
+}
+
+.size-img {
+    overflow: hidden;
+    text-align: center;
+}
+
+.size-img img {
+    width: 100%;
+}
+
+.size-img h3 {
+    font-size: 100%;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+#treatments {
+    background-color: #3f8e93;
+    width: 100%;
+}
+
+.reviews {
+    background-color: #17a2b8;
+}
+
+.location {
+    width: 100%;
+}
+
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper .box {
+    background: #fff;
+    width: calc(33% - 10px);
+    height: 300px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.wrapper .box p {
+    width: 100%;
+}
+
+
+.wrapper .box .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.box .info .name {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.box .info .job {
+    font-size: 16px;
+    font-weight: 500;
+    color: #17a2b8;
+}
+
+
+.box .content .image {
+    height: 75px;
+    width: 75px;
+    padding: 3px;
+    background: #17a2b8;
+    border-radius: 50%;
+}
+
+.content .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.box:hover .content .image img {
+    border-color: #fff;
+}
+
+@media (max-width: 1045px) {
+    .wrapper .box {
+        width: calc(50% - 10px);
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 702px) {
+    .wrapper .box {
+        width: 100%;
+    }
+}
+
+.row::after {
+    clear: both;
+    display: table;
+}
+
+.contact-methods h3 {
+    text-align: center;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.about-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-text{
+    text-align: left;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.about-pics {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.about-pics img {
+  width: 600px;
+  height: 600px;
+}
+
+@media (max-width: 900px){
+    .about-list {
+        display: block;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .about-pics{
+       padding-left: 0;
+       padding-right: 0;
+       display: flex;
+       align-items: center;
+    }
+
+    .about-pics img {
+       width: 300px;
+       height: 300px;
+       margin-left: auto;
+       margin-right: auto;
+    }
+}
+
+footer {
+    background-color: #22565a;
+    color: rgb(255, 248, 241);
+    padding: 16px 0px;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*other elements*/
+
+.container p {
+    text-align: center;
+}
+
+h2 {
+    margin-left: 10px;
+}
+/*utils*/
+.border-blue{
+    border: 1px dotted blue
+}
