@@ -167,7 +167,7 @@ section h3 {
 
 
 
-.treatments-list{
+.services-list{
     padding: 3em;
     display: grid;
     grid-gap: 2em;
@@ -196,7 +196,7 @@ section h3 {
     margin: auto;
 }
 
-#treatments {
+#services {
     background-color: #3f8e93;
     width: 100%;
 }
