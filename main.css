@@ -25,8 +25,13 @@ body {
 
 header {
     padding: 24px 0;
-    background-color: #22565a;
+    background-color: #77c1e6;
     color: white;
+}
+
+.logo-img{
+    width: 300px;
+    height: 100px;
 }
 
 header .container {
@@ -92,10 +97,7 @@ section .container {
     justify-content: space-between;
 }
 
-.logo-img {
-    width: 100px;
-    height: 100px;
-}
+
 .icon-image {
     width: 100px;
     height: 100px;
