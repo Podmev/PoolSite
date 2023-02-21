@@ -332,13 +332,13 @@ section h3 {
     margin-top: auto;
     margin-bottom: auto;
 }
-.about-pics {
+.about-slideshow {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
 }
-.about-pics img {
-  width: 600px;
+.about-slideshow img {
+  //width: 600px;
   height: 600px;
 }
 
@@ -351,15 +351,15 @@ section h3 {
         width: 100%;
     }
 
-    .about-pics{
+    .about-slideshow{
        padding-left: 0;
        padding-right: 0;
        display: flex;
        align-items: center;
     }
 
-    .about-pics img {
-       width: 300px;
+    .about-slideshow img {
+       width: 700px;
        height: 300px;
        margin-left: auto;
        margin-right: auto;
