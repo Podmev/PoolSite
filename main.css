@@ -152,7 +152,7 @@ section h3 {
 
 @media (max-width: 900px){
     #main-page {
-        background-image: url("./images/background-woman-mobile.webp");
+        background-image: url("./images/background/floating-girl-mobile.png");
         background-blend-mode: multiply;
         background-color: rgba(150,150,150,0.9) !important
     }
