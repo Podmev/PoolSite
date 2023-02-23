@@ -52,3 +52,8 @@ Note: except for the Project (Root) Folder all files and folders should be (a) l
 3. maybe fix merge conflicts and commit and push them  (in branch)
 4. git checkout master
 5. git merge *branch*
+
+### sites for stock images
+1. https://create.vista.com/ru/photos/water-aerobics/
+2. https://www.pexels.com/pt-br/
+3. https://unsplash.com/pt-br
