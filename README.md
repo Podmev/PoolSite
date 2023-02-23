@@ -1,5 +1,5 @@
 # PoolSite
-Site for Aqua Fitness
+Site for RS Aqua Fitness
 
 [Dashboard](https://trello.com/b/syyDKl42/pool-site)
 
