@@ -25,7 +25,8 @@ body {
 
 header {
     padding: 24px 0;
-    background-color: #77c1e6;
+    //background-color: #77c1e6;
+    background-image: linear-gradient(to right bottom, #6CB4EE, #006494);
     color: white;
 }
 
@@ -212,12 +213,14 @@ section h3 {
 }
 
 #services {
-    background-color: #006494;
+    //background-color: #006494;
+    background-image: linear-gradient(to right bottom, #006494, #2c3968);
     width: 100%;
 }
 
 .reviews {
-    background-color: #247ba0;
+    //background-color: #247ba0;
+    background-color: #006494
 }
 
 .location {
@@ -356,7 +359,8 @@ section h3 {
 }
 
 footer {
-    background-color: #77c1e6;
+    //background-color: #77c1e6;
+    background-image: linear-gradient(to right bottom, #006494, #6CB4EE);
     color: rgb(255, 248, 241);
     padding: 16px 0px;
 }
