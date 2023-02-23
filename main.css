@@ -173,26 +173,24 @@ section h3 {
     }
 }
 
-
-
 .services-list{
     padding: 3em;
     display: grid;
-    grid-gap: 2em;
+    grid-gap: 8em;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))
 }
 
-.column {
-    float: left;
-    width: 20%;
-    padding: 10px 25px 10px 25px;
+.service-box .service-name {
+    align-items: center;
+    display: flex;
+    width: 250px;
 }
 
-.service-box h2 {
+.service-box .service-name h2 {
     font-size: 150%;
     color: white;
-    text-align: center;
     margin: auto;
+    padding: 10px;
 }
 
 .service-img {
