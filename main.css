@@ -344,42 +344,15 @@ section h3 {
 
 .about-text{
     text-align: left;
-    padding: 10px;
+    padding: 40px;
     margin-top: auto;
     margin-bottom: auto;
+    width: 100%;
 }
-.about-slideshow {
-    padding-left: 10px;
-    padding-right: 10px;
+.about-slider {
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: 20px;
-}
-.about-slideshow img {
-  //width: 600px;
-  height: 600px;
-}
-
-@media (max-width: 900px){
-    .about-list {
-        display: block;
-    }
-
-    .about-text {
-        width: 100%;
-    }
-
-    .about-slideshow{
-       padding-left: 0;
-       padding-right: 0;
-       display: flex;
-       align-items: center;
-    }
-
-    .about-slideshow img {
-       width: 700px;
-       height: 300px;
-       margin-left: auto;
-       margin-right: auto;
-    }
 }
 
 footer {
