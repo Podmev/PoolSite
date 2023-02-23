@@ -97,11 +97,17 @@ section .container {
     justify-content: space-between;
 }
 
-
+//todo rename
 .icon-image {
-    width: 100px;
-    height: 100px;
+    border-radius: 50%;
+//    width: 100px;
+//    height: 100px;
 }
+
+.service-img {
+    border-radius: 50%;
+}
+
 
 section {
     padding: 24px 0;
@@ -182,20 +188,29 @@ section h3 {
     padding: 10px 25px 10px 25px;
 }
 
-.size-img {
-    overflow: hidden;
-    text-align: center;
-}
-
-.size-img img {
-    width: 100%;
-}
-
-.size-img h3 {
-    font-size: 100%;
+.service-box h2 {
+    font-size: 150%;
     color: white;
     text-align: center;
     margin: auto;
+}
+
+.service-img {
+    height: 250px;
+    width: 250px;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 20px;
+    background: #17a2b8;
+    border-radius: 50%;
+}
+
+.service-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
 }
 
 #services {
