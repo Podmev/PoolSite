@@ -218,6 +218,49 @@ section h3 {
     width: 100%;
 }
 
+#events {
+    background-image: url("./images/background/floating-girl-desktop.png");
+    background-size:cover;
+    height: auto;
+    width: 100%;
+}
+
+#events a{
+    color: inherit; /* remove blue color of link */
+    text-decoration: inherit; /* no underline */
+}
+
+#events h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 330%;
+    text-align: left;
+    color:rgb(10, 44, 58);
+
+}
+
+#events h3{
+    font-size: 40px;
+    padding-top: 5%;
+    color: rgb(10, 44, 58);
+}
+
+@media (max-width: 900px){
+    #events {
+        background-image: url("./images/background/floating-girl-mobile.png");
+        background-blend-mode: multiply;
+        background-color: rgba(150,150,150,0.9) !important
+    }
+
+    #events h2 {
+        color:white;
+
+    }
+
+    #events h3{
+        color: white;
+    }
+}
+
 .reviews {
     //background-color: #247ba0;
     background-color: #006494
