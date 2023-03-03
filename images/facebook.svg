@@ -21,13 +21,13 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="0.37194641"
-     inkscape:cx="-165.3464"
-     inkscape:cy="318.59428"
-     inkscape:window-width="1500"
-     inkscape:window-height="938"
-     inkscape:window-x="-6"
-     inkscape:window-y="-6"
-     inkscape:window-maximized="1"
+     inkscape:cx="-164.00212"
+     inkscape:cy="319.93856"
+     inkscape:window-width="1269"
+     inkscape:window-height="481"
+     inkscape:window-x="218"
+     inkscape:window-y="220"
+     inkscape:window-maximized="0"
      inkscape:current-layer="Слой_1" />
   <defs
      id="defs3590">
@@ -39,7 +39,7 @@
      d="M917.25,543.82c0-175.21-142-317.25-317.25-317.25s-317.25,142-317.25,317.25c0,158.35,116,289.6,267.68,313.4V635.53H469.88V543.82h80.55V473.93c0-79.52,47.36-123.44,119.83-123.44,34.71,0,71,6.2,71,6.2v78.07h-40c-39.41,0-51.7,24.46-51.7,49.55v59.51h88l-14.07,91.71H649.57V857.22C801.24,833.42,917.25,702.17,917.25,543.82Z"
      transform="translate(-282.75 -226.57)"
      id="path3592"
-     style="fill:#77c1ea;fill-opacity:1" />
+     style="fill:#800080;fill-opacity:1" />
   <path
      class="cls-2"
      d="M723.49,635.53l14.07-91.71h-88V484.31c0-25.09,12.29-49.55,51.7-49.55h40V356.69s-36.31-6.2-71-6.2c-72.47,0-119.83,43.92-119.83,123.44v69.89H469.88v91.71h80.55V857.22a321,321,0,0,0,99.14,0V635.53Z"
