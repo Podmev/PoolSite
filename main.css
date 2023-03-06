@@ -219,15 +219,10 @@ section h3 {
 }
 
 #events {
-    background-image: url("./images/background/floating-girl-desktop.png");
+    background-image: url("./images/background/woman-with-glasses-on-side-of-pool-desktop.jpg");
     background-size:cover;
     height: auto;
     width: 100%;
-}
-
-#events a{
-    color: inherit; /* remove blue color of link */
-    text-decoration: inherit; /* no underline */
 }
 
 #events h2 {
@@ -246,7 +241,7 @@ section h3 {
 
 @media (max-width: 900px){
     #events {
-        background-image: url("./images/background/floating-girl-mobile.png");
+        background-image: url("./images/background/woman-with-glasses-on-side-of-pool-mobile.jpg");
         background-blend-mode: multiply;
         background-color: rgba(150,150,150,0.9) !important
     }
