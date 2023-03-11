@@ -239,6 +239,17 @@ section h3 {
     color: rgb(10, 44, 58);
 }
 
+#events .events-info{
+    margin: 15px;
+}
+#events ul{
+    list-style-type: none; /* Remove bullets */
+}
+#events li{
+    font-size: 150%;
+    font-weight: bolder;
+}
+
 @media (max-width: 900px){
     #events {
         background-image: url("./images/background/woman-with-glasses-on-side-of-pool-mobile.jpg");
@@ -254,6 +265,10 @@ section h3 {
     #events h3{
         color: white;
     }
+    #events li{
+        color: white;
+    }
+
 }
 
 .reviews {
