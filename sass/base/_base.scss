@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // This defines what 1rem is
+  font-size: 62.5%; // 1rem = 10px, 10px/12px=62.5%
+
+  // @include respond(tab-land) {
+  //   font-size: 56.25%; // 1rem = 9px, 9/16 = 56.25%
+  // }
+
+  // @include respond(tab-port) {
+  //   font-size: 50%; // 1rem = 8px, 8/16 = 50%
+  // }
+
+  // @include respond(big-desktop) {
+  //   font-size: 75%; // 1rem = 12px, 12/16 = 75%
+  // }
+}
+
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
+}
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}
+
+.container{
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+  grid-template-columns:
+    [full-start] minmax(6rem, 1fr)
+    [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end])
+    [center-end] minmax(6rem, 1fr) [full-end];
+}

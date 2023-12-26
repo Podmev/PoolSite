@@ -25,7 +25,7 @@ body {
 
 header {
     padding: 24px 0;
-    //background-color: #77c1e6;
+    background-color: #77c1e6;
     background-image: linear-gradient(to right bottom, #6CB4EE, #006494);
     color: white;
 }
