@@ -1,5 +1,9 @@
-//@import "../../sass/global-imports.scss";
+@import "../../sass/global-imports.scss";
 .header {
   background-color: lightcoral;
   grid-column: full-start/full-end;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2rem 4rem;
 }

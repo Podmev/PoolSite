@@ -15,11 +15,19 @@ import Footer from "./Footer/Footer";
 import Features from "./Features/Features";
 import FAQ from "./FAQ/FAQ";
 import Story from "./Story/Story";
+import { useState } from "react";
 
 function App() {
+  const defaultLang = "pt";
+  const [lang, setLang] = useState(defaultLang);
+
+  function handleLang(lang) {
+    setLang(lang);
+  }
+
   return (
     <div className="App container">
-      <Header />
+      <Header onLangChanged={handleLang} lang={lang} />
       <Hero />
       <HowTo />
       <Features />
@@ -28,7 +36,7 @@ function App() {
       <Activities />
       <Pool />
       <Events />
-      <Testimonials />
+      <Testimonials lang={lang} defaultLang={defaultLang}/>
       <Prices />
       <CTA />
       <Gallery />

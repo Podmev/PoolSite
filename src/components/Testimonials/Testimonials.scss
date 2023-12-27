@@ -4,4 +4,16 @@
   background-color: orangered;
   color: $color-primary-dark;
   grid-column: center-start/center-end;
+
+  display: flex;
+
+  &__card {
+    background-color: $color-white;
+    padding: 3rem;
+  }
+
+  &__activity {
+    display: inline-block;
+    margin: 0 0.5rem;
+  }
 }
