@@ -1,4 +1,5 @@
 @import "../../sass/global-imports.scss";
 .cta{
     background-color: hotpink;
+    grid-column: center-start/center-end;
 }

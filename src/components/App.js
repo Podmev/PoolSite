@@ -1,11 +1,11 @@
 import "./App.scss";
+import Header from "./Header/Header";
 import Testimonials from "./Testimonials/Testimonials";
 import Pool from "./Pool/Pool";
 import Activities from "./Activities/Activities";
 import Perks from "./Perks/Perks";
 import HowTo from "./HowTo/HowTo";
 import Hero from "./Hero/Hero";
-import Header from "./Header/Header";
 import Events from "./Events/Events";
 import Prices from "./Prices/Prices";
 import CTA from "./CTA/CTA";
@@ -18,7 +18,7 @@ import Story from "./Story/Story";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       <Header />
       <Hero />
       <HowTo />

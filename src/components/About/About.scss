@@ -1,4 +1,6 @@
 @import "../../sass/global-imports.scss";
 .about {
   background-color: yellowgreen;
+  color: $color-primary-light;
+  grid-column: center-start/center-end;
 }

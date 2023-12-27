@@ -1,4 +1,5 @@
 @import "../../sass/global-imports.scss";
-.hero{
-    background-color: saddlebrown;
+.hero {
+  background-color: saddlebrown;
+  grid-column: full-start/full-end;
 }

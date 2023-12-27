@@ -3,4 +3,5 @@
 .testimonials {
   background-color: orangered;
   color: $color-primary-dark;
+  grid-column: center-start/center-end;
 }

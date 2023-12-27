@@ -1,4 +1,5 @@
 @import "../../sass/global-imports.scss";
 .pool{
     background-color: mediumvioletred;
+    grid-column: center-start/center-end;
 }

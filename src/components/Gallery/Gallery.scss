@@ -1,4 +1,5 @@
 @import "../../sass/global-imports.scss";
 .gallery{
     background-color: lawngreen;
+    grid-column: full-start/full-end;
 }

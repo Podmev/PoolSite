@@ -1,4 +1,5 @@
-@import "../../sass/global-imports.scss";
-.header{
-    background-color: lightcoral;
+//@import "../../sass/global-imports.scss";
+.header {
+  background-color: lightcoral;
+  grid-column: full-start/full-end;
 }
