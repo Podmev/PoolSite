@@ -5,20 +5,28 @@ export default function Header({ lang, onLangChanged }) {
     <header className="header">
       <select value={lang} onChange={(e) => onLangChanged(e.target.value)}>
         <option value="pt">
-          Portuguese
-          {/* <Flag code="br" alt="Brazil" /> */}
+          Português
+          {convertToFlag("br")}
         </option>
         <option value="en">
           English
-          {/* <Flag code="gb" alt="Great Britain" /> */}
+          {convertToFlag("en")}
         </option>
         <option value="ru">
           Русский
-          {/* <Flag code="ru" alt="Russia" /> */}
+          {convertToFlag("ru")}
         </option>
       </select>
     </header>
   );
+}
+
+function convertToFlag(countryCode) {
+  const codePoints = countryCode
+    .toUpperCase()
+    .split("")
+    .map((char) => 127397 + char.charCodeAt());
+  return String.fromCodePoint(...codePoints);
 }
 
 // // doesn't work in option - need to change for div instead of select

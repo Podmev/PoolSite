@@ -23,6 +23,7 @@ function App() {
 
   function handleLang(lang) {
     setLang(lang);
+    document.documentElement.lang = lang;
   }
 
   return (
@@ -36,7 +37,7 @@ function App() {
       <Activities />
       <Pool />
       <Events />
-      <Testimonials lang={lang} defaultLang={defaultLang}/>
+      <Testimonials lang={lang} defaultLang={defaultLang} />
       <Prices />
       <CTA />
       <Gallery />
