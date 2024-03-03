@@ -11,6 +11,7 @@
 - CTA
 - About
 - FAQ
+- Quiz
 - Footer
 
 ## Ideas
@@ -51,6 +52,7 @@
  - overlapped images
  - picturesque view
  - tabs with activities
+ - Quiz about typical questions in react (project 10 of React course (section 16))
 
 
  ## JS features
@@ -66,6 +68,7 @@
   - add boia inside of pool, with hovering it - so it can beat and float inside
   - language with different files for all content
   - fixed data in one file
+  - dark mode button (as in 12-atomic-blog)
  
 
 
